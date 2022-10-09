@@ -38,7 +38,12 @@ For using FP16 arithmetics, make sure that your GPU model satisfies: `__CUDA_ARC
 
 ### How to use
 
-There are some example notebooks inside the example folder. Start by running them to get the same results as the paper. For testing different methods on a same model, load the proper header file in the first cell of the notebook according to this table:
+There are some example notebooks inside the example folder. Start by running them to get the same results as the paper. 
+
+![](image.png)
+
+
+For testing different methods on a same model, load the proper header file in the first cell of the notebook according to this table:
 
 |       | 32-Bit floating point (FP32) | 16-bit floating point (FP16) |
 |-------|-----------------------|-----------------------|
